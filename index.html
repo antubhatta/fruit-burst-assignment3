@@ -45,7 +45,7 @@
     <!-- header related section -->
     <header class="lg:container lg:mx-auto mx-5">
         <!-- navbar related section -->
-        <nav class="md:rounded-[600px] md:bg-primary-bg flex justify-between items-center my-14">
+        <!-- <nav class="md:rounded-[600px] md:bg-primary-bg flex justify-between items-center my-14">
             <div class="hidden md:flex">
                 <ul class="flex gap-7 text-white pl-12 py-10 text-lg items-center">
                     <li>Home</li>
@@ -65,7 +65,49 @@
                 <p class="primary-text pl-7 ">Search here</p>
                 <img class="pr-8" src="./images/Frame.svg" alt="">
             </div>
-        </nav>
+        </nav> -->
+
+        <!-- updated navbar related section -->
+        <div class="navbar lg:rounded-[600px] lg:bg-primary-bg flex justify-between items-center my-14">
+            <div class="hidden lg:block navbar-start w-auto">
+                <div class="hidden md:flex">
+                    <ul class="flex gap-7 text-white pl-12 py-10 text-lg items-center">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Shop</li>
+                        <li>All Fruits</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center">
+              <div class="flex items-center gap-5 ml-4 md:ml-0">
+                <img src="./images/logo.png" alt="">
+                <h3 class="text-3xl md:text-4xl font-bold text-black md:text-white">Fruit Burst</h3>
+            </div>
+            </div>
+            
+            
+            <div class="hidden lg:flex justify-between items-center  rounded-[50px] bg-white w-96 h-14 mr-12">
+                <p class="primary-text pl-7 ">Search here</p>
+                <img class="pr-8" src="./images/Frame.svg" alt="">
+            </div>
+
+            <div class="dropdown lg:hidden ">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box border right-0">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>All Fruits</li>
+                    <div class="flex justify-between items-center  rounded-[50px] bg-white w-96 h-14 mr-12">
+                        <p class="primary-text pl-7 ">Search here</p>
+                        <img class="pr-8" src="./images/Frame.svg" alt="">
+                    </div>
+                </ul>
+              </div>
+          </div>
         <!-- banner slider section -->
         <div class="relative mb-32">
 
