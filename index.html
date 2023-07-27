@@ -44,28 +44,7 @@
 <body class="font-lato">
     <!-- header related section -->
     <header class="lg:container lg:mx-auto mx-5">
-        <!-- navbar related section -->
-        <!-- <nav class="md:rounded-[600px] md:bg-primary-bg flex justify-between items-center my-14">
-            <div class="hidden md:flex">
-                <ul class="flex gap-7 text-white pl-12 py-10 text-lg items-center">
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Shop</li>
-                    <li>All Fruits</li>
-                </ul>
-            </div>
-            <div class="flex items-center gap-5 ml-4 md:ml-0">
-                <img src="./images/logo.png" alt="">
-                <h3 class="text-3xl md:text-4xl font-bold text-black md:text-white">Fruit Burst</h3>
-            </div>
-            <div class="md:hidden mr-5 text-black w-6 h-6">
-                <img src="./images/Frame (1).svg" alt="">
-            </div>
-            <div class="hidden md:flex justify-between items-center  rounded-[50px] bg-white w-96 h-14 mr-12">
-                <p class="primary-text pl-7 ">Search here</p>
-                <img class="pr-8" src="./images/Frame.svg" alt="">
-            </div>
-        </nav> -->
+        
 
         <!-- updated navbar related section -->
         <div class="navbar lg:rounded-[600px] lg:bg-primary-bg flex justify-between items-center mt-11 mb-6 lg:my-14">
@@ -102,7 +81,7 @@
                     <li>Shop</li>
                     <li>All Fruits</li>
                     <div class="relative flex justify-between items-center  rounded-[50px] bg-white mt-6 h-10">
-                        <input type="search" id="search"name="search" placeholder="Search here" class="outline-none  rounded-[50px] bg-white  h-10 mr-4 pl-4 pr-8" />
+                        <input type="search" id="search"name="search" placeholder="Search here" class="outline-none rounded-[50px] bg-white  h-10 mr-4 pl-4 pr-8" />
                 <img class="absolute right-4" src="./images/Frame.svg" alt="">
                     </div>
                 </ul>
@@ -114,7 +93,7 @@
             <div class="relative carousel w-full overflow-y-hidden">
                 <div id="slide1" class="carousel-item  w-full ">
                     <div class="relative w-full">
-                        <img src="./images/banner1.png" class="h-[280px] lg:h-auto lg:w-full  " />
+                        <img src="./images/banner1.png" class="h-[280px] lg:h-auto w-full  " />
                         <div class="absolute inset-0 bg-gradient-to-b rounded-lg from-[#121212] to-transparent">
 
                         </div>
@@ -224,7 +203,7 @@
     <main class="lg:container lg:mx-auto mx-5">
         <section>
             <!-- deal of the day section -->
-            <div class="flex flex-col md:flex-row gap-6 lg:justify-between -mt-24 lg:mt-52 lg:mb-12">
+            <div class="flex flex-col lg:flex-row gap-6 lg:justify-between -mt-24 lg:mt-52 lg:mb-12">
                 <div class="">
                     <h1 class="text-xl text-center lg:text-left lg:text-5xl font-bold mb-2 lg:mb-6">Deal of the day</h1>
                     <p class="text-sm lg:text-base max-w-[277px] mx-auto text-center lg:text-left text-[#12121299] lg:max-w-xl ">Contrary to popular belief, is not simply random
@@ -265,7 +244,7 @@
                 </div>
             </div>
             <!-- card section -->
-            <div class="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- first card -->
                 <div class="card bg-[#FFF] rounded-lg border border-gray-300">
                     <figure><img class="pt-12 mb-10" src="./images/fruit6.png" /></figure>
@@ -281,7 +260,7 @@
                         <!-- bonus modal start -->
                         <button class="text-lg font-bold text-primary-bg mt-7"
                             onclick="my_modal_1.showModal()">Details</button>
-                        <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
+                        <dialog id="my_modal_1" class="modal modal-bottom px-4 sm:modal-middle">
                             <form method="dialog" class="modal-box">
                                 <figure><img class="pt-12 mb-10" src="./images/fruit6.png" /></figure>
                                 <h3 class="font-bold text-4xl">Apple</h3>
@@ -322,7 +301,7 @@
                         <!-- bonus modal start -->
                         <button class="text-lg font-bold text-primary-bg mt-7"
                             onclick="my_modal_2.showModal()">Details</button>
-                        <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+                        <dialog id="my_modal_2" class="modal modal-bottom px-4 sm:modal-middle">
                             <form method="dialog" class="modal-box">
                                 <figure><img class="pt-12 mb-10" src="./images/fruit7.png" /></figure>
                                 <h3 class="font-bold text-4xl">Orange</h3>
@@ -363,7 +342,7 @@
                         <!-- bonus modal start -->
                         <button class="text-lg font-bold text-primary-bg mt-7"
                             onclick="my_modal_3.showModal()">Details</button>
-                        <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
+                        <dialog id="my_modal_3" class="modal modal-bottom px-4 sm:modal-middle">
                             <form method="dialog" class="modal-box">
                                 <figure><img class="pt-12 mb-10" src="./images/fruit8.png" /></figure>
                                 <h3 class="font-bold text-4xl">Red Dragon</h3>
@@ -404,11 +383,11 @@
                         <!-- bonus modal start -->
                         <button class="text-lg font-bold text-primary-bg mt-7"
                             onclick="my_modal_4.showModal()">Details</button>
-                        <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle mx-10">
+                        <dialog id="my_modal_4" class="modal modal-bottom px-4 sm:modal-middle">
                             <form method="dialog" class="modal-box">
                                 <figure><img class="pt-12 mb-10" src="./images/fruit9.png" /></figure>
                                 <h3 class="font-bold text-4xl">Banana</h3>
-                                <p class="py-4 font-base text-[#12121299] lg:max-w-sm mx-auto">Professional employees are
+                                <p class="py-4 font-base text-[#12121299] max-w-sm mx-auto">Professional employees are
                                     there for you to pick the most amazing and fresh fruits.</p>
                                 <div class="flex items-center justify-center mt-3">
                                     <img src="./images/group-24.svg" alt="">
@@ -539,7 +518,7 @@
     
                 </div>
                 <!-- image section -->
-                <div class="row-start-1 lg:col-start-2">
+                <div class="row-start-1 md:mx-auto lg:col-start-2">
                     <img src="./images/whychoose1.png" alt="">
                 </div>
                 
